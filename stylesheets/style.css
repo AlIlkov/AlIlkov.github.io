@@ -1,0 +1,255 @@
+body {
+  background: #ece4d8;
+  font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
+  color: #544943;
+  -webkit-font-smoothing: antialiased;
+  margin:0;
+  width: 100%;
+
+}
+
+.line {
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+	z-index:-1;
+	display:none;
+}
+
+
+
+#line1 {
+    top: 175px;
+    left: 550px;
+    height: 115px;
+
+    transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+}
+#line2 {
+    top: 150px;
+    left: 650px;
+}
+
+#line3 {
+    top: 175px;
+    left: 750px;
+    height: 115px;
+
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+}
+#line4 {
+    top: 250px;
+    left: 550px;
+
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+#line5 {
+    top: 250px;
+    left: 750px;
+
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}#line6 {
+    top: 325px;
+    left: 550px;
+
+    transform: rotate(240deg);
+    -webkit-transform: rotate(240eg);
+    -ms-transform: rotate(240deg);
+}
+#line7 {
+    top: 325px;
+    left: 650px;
+}
+#line8 {
+    top: 325px;
+    left: 750px;
+
+    transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    -ms-transform: rotate(300deg);
+}
+
+.languages{
+    position: relative;
+    float: none;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+	margin: 0px auto;
+    padding: 0;
+	display:flex;
+	justify-content:center;
+}
+
+.languages img{
+	width:  256px;
+    height: 144px;
+	
+}
+
+.languages tr{
+	
+	
+}
+
+.languages  td{
+	text-align:center; 
+    vertical-align:middle;
+}
+
+
+.contact {
+	position:relative;
+	border-style: solid;
+	border-radius: 1px; 
+	border-width: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px
+	align:center;
+	text-align:center;
+	width: 20%;
+	margin:auto;
+
+		}
+
+.contact p{
+	align:center;
+	border-width:5%;
+	text-align:center;
+
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+  cursor:default;    
+}
+
+.main {
+  position: absolute;
+  background-color: #09f;
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 200px;
+  float:left;
+}
+
+.derivatives a{
+  position: absolute;
+  background-color: #09f;
+  margin: 20px auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 250px;
+  display:none;
+  float:left;
+}
+
+.derivates {
+	position:absolute;
+	float:left;
+}
+
+#network {
+	position: relative;
+}
+
+#menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	display:flex;
+	justify-content:center;
+}
+
+#menubar li {
+    float: left;
+}
+
+#menubar li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menubar li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+#menubar li.dropdown {
+    display: inline-block;
+}
+
+#menubar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+#menubar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#menubar .dropdown-content a:hover {background-color: #f1f1f1}
+
+#menubar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#menubar .active {
+    background-color: #4CAF50;
+}
+
+#menubar {
+	
+}
+
+#definition {
+	display:none;
+	border-radius: 25px;
+    padding: 5px; 
+    width: 200px;
+    height: 50px;
+	border: 2px solid;
+	height:200px;
+	display:none;
+	position:absolute;
+	left:550px;
+	top:500px;
+	z-index:1;
+	overflow: auto;
+}
+
+
+
+.ignore-css{all:unset;}
